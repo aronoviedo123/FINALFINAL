@@ -1,0 +1,124 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
+        url(/assets/img/fondo_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(244, 250, 253, 0.938);
+    margin: 0em;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 10em;
+
+}
+
+.sec1 {
+    border: 0.0063em solid rgb(0, 0, 0);
+    width: 23.125em;
+    height: 32.5em;
+    padding: 0 3.125em;
+    background-color: white;
+    border-radius: 2.5em;
+}
+
+.sec1 h1 {
+    font-family: cursive;
+    text-align: center;
+    font-size: 1.875em;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1.875em;
+    height: 3.75em;
+    border: 0.0625em solid black;
+    padding-right: 12.5em;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.titulo {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 31.25em;
+    font-size: 1em;
+    margin-left: 6.25em;
+    text-align: center;
+}
+
+
+.menu a:link,
+a:visited {
+    padding: 1.25em;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.log_fa {
+
+    font-size: 0.875em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dodgerblue;
+    border-radius: 0.8125em;
+    height: 2.5em;
+}
+
+input[type=text],
+[type=password] {
+    background-color: rgba(248, 248, 248, 0.993);
+    padding: 0.375em;
+    margin: 0.3125em 0;
+    border: 0.0625em solid rgb(14, 14, 14);
+    width: 28.5em;
+    height: 1.875em;
+    margin-top: 1.875em;
+}
+
+input[type=button] {
+
+    margin: 0.9375em 0.625em;
+    padding: 0.5em 7.3125em;
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+    width: 17.875em;
+    height: 3.125em;
+    font-size: 1.25em;
+    margin-top: 1.25em;
+}
+
+.form p {
+    font-size: 0.9375em;
+    color: rgb(163, 163, 163);
+}
+
+@media(max-width:991px) {
+    .titulo {
+        display: none;
+        ;
+    }
+
+    body {
+        font-size: 9px;
+    }
+
+    input[type=text],
+    [type=password] {
+        background-color: rgba(248, 248, 248, 0.993);
+        padding: 0.375em;
+        margin: 0.3125em 0;
+        border: 0.0625em solid rgb(14, 14, 14);
+        width: 14.5em;
+        height: 0.875em;
+        margin-top: 1.875em;
+    }
+
+}

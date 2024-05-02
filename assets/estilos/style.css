@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 1, 1, 1)), url(/assets/img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Poppins", sans, serif;
+    font-size: 16px;
+}
+
+.bandera {
+    width: 31.25em;
+    height: 0.4375em;
+
+}
+
+a:link,
+a:visited {
+    padding: 0px 1.25em;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+}
+
+
+.tittle {
+    padding-top: 12.5em;
+    margin-left: 7.625em;
+    margin-right: 3em;
+    font-size: 1.25em;
+    color: aliceblue;
+}
+
+.tuno {
+    font-size: 3.125em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.tdos {
+    font-size: 2.125em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ttres {
+    font-size: 1.125em;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 1, 1, 0)), url(/assets/img/top.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 12.5em;
+    margin: 0px;
+}
+
+
+.titulo {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    width: 31.25em;
+    font-size: 1em;
+    margin-left: 6.625em;
+    text-align: center;
+}
+
+#menu-log {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+    display: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0em;
+    margin-top: 0em;
+}
+
+.cuadrouno {
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+
+}
+
+.cuadrodos {
+    background-color: rgb(78, 110, 82);
+    text-align: center;
+    padding-bottom: 3.125em;
+}
+
+.c_uno {
+    padding-top: 3.125em;
+    font-size: 1.875em;
+    stroke: black;
+}
+
+.c_dos {
+    padding-top: 4.375em;
+    font-size: 1.25em;
+    padding-bottom: 5em
+}
+
+.d_uno {
+    padding-top: 3.125em;
+    font-size: 2.5em;
+    color: rgb(255, 255, 255);
+    font-family: bold;
+}
+
+.d_dos {
+    color: white;
+
+    padding-top: 4.375em;
+    font-size: 1.25em;
+    padding-bottom: 5em;
+}
+
+
+
+.enlaces {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+.form1 {
+    background-color: rgb(255, 153, 0);
+    width: 22.125em;
+    height: 2.9375em;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+
+.form2 {
+    background-color: rgb(253, 173, 0);
+    width: 30.25em;
+    height: 3.125em;
+    color: rgb(0, 0, 0);
+    font-size: 1.375em;
+    text-align: center;
+}
+
+.form3 {
+    background-color: rgb(224, 224, 224);
+    width: 21.875em;
+    height: 3.125em;
+    color: rgb(0, 0, 0);
+    font-size: 1.25em;
+    text-align: center;
+}
+
+.form4 {
+    background-color: rgb(224, 224, 224);
+    width: 23.75em;
+    height: 2.5em;
+    color: rgb(0, 0, 0);
+    font-size: 0.9375em;
+    text-align: center;
+    margin-right: 0.5em;
+}
+
+
+.footer-content {
+    background-size: cover;
+    padding-top: 3.125em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content div {
+    color: aliceblue;
+    padding: 1.875em;
+}
+
+.footer-content h3 {
+    padding-left: 0.9375em;
+    margin-top: 40px;
+}
+
+.footer-content i {
+    font-size: 30px;
+}
+
+.footer-content p {
+    padding-top: 1.875em;
+}
+
+
+.fa-solid {
+    margin-right: 1.25em;
+    font-size: 1.25em;
+    margin-top: 0.5625em;
+}
+
+@media(max-width:991px) {
+
+    .menu {
+        display: none;
+
+    }
+
+    body {
+        font-size: 9px;
+    }
+
+    label {
+        display: initial;
+    }
+
+    .ico-log {
+        width: 30px;
+        height: 30px;
+        float: right;
+
+    }
+
+    .enlaces {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .arriba a:link,
+    a:visited {
+
+        color: rgb(255, 255, 255);
+        font-size: 1.2em;
+        margin-top: 10px;
+        background-color: rgb(122, 122, 122);
+        padding-top: 9px;
+        width: 230px;
+        height: 30px;
+        margin-left: 300px;
+    }
+
+
+    #menu-log:checked~.titulo {
+        display: none;
+    }
+
+
+
+    #menu-log:checked~.menu {
+        display: initial;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+
+}
